@@ -7,19 +7,26 @@ It trains diffirent models automatically and returns the accuracy.
 I download the notebook and upload it here if ayone wants to replicate (watson not needed).
 
 So far this is the accuracy - 
-1. Random forest classifier (0.994)
+1. Random forest classifier HPO-1 FE(0.994)
+2. Random forest classifier HPO-1 FE HPO-2(0.994)
+3. Extra Trees Classifier HPO-1 FE(0.994)
+4. Extra Trees Classifier HPO-1 FE HPO-2(0.994)
+5. Random forest classifier (0.994)
+6. Random forest classifier HPO-1 (0.994)
+7. Extra Trees Classifier (0.994)
+8. Extra Trees Classifier HPO-1 (0.994)
 
 
 Results of @llSourcell (https://github.com/llSourcell/antivirus_demo)
-DecisionTree : 99.156103 %
-RandomForest : 99.369794 %
-GradientBoosting : 98.924303 %
-AdaBoost : 98.779428 %
-GNB : 70.199203 %
+* DecisionTree : 99.156103 %
+* RandomForest : 99.369794 %
+* GradientBoosting : 98.924303 %
+* AdaBoost : 98.779428 %
+* GNB : 70.199203 %
 Winner algorithm is RandomForest with a 99.369794 % success
 
 Results of @nikhilraghava (https://github.com/nikhilraghava/ML-Antivirus)
-were suspiciously same as of @llSourcell :P
+* were suspiciously same as of @llSourcell :P
 
 I'm very happy with the results as it is better than/comparable to most people got from their manual experimentation.
 
