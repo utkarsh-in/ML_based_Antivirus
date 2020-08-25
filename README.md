@@ -10,5 +10,16 @@ So far this is the accuracy -
 1. Random forest classifier (0.994)
 
 
-I'm very happy with the results as it is better than most people got from their manual experimentation.
+Results of @llSourcell (https://github.com/llSourcell/antivirus_demo)
+DecisionTree : 99.156103 %
+RandomForest : 99.369794 %
+GradientBoosting : 98.924303 %
+AdaBoost : 98.779428 %
+GNB : 70.199203 %
+Winner algorithm is RandomForest with a 99.369794 % success
+
+Results of @nikhilraghava (https://github.com/nikhilraghava/ML-Antivirus)
+were suspiciously same as of @llSourcell :P
+
+I'm very happy with the results as it is better than/comparable to most people got from their manual experimentation.
 
